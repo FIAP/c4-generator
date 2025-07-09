@@ -1,0 +1,37 @@
+{
+  "name": "c4-generator",
+  "version": "1.0.0",
+  "description": "Gerador de diagramas C4 usando OpenAI GPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js generate",
+    "dev": "node --watch index.js",
+    "test": "node test.js",
+    "demo": "node demo.js",
+    "example": "node index.js example"
+  },
+  "keywords": [
+    "c4",
+    "architecture",
+    "diagrams",
+    "openai",
+    "gpt",
+    "mermaid"
+  ],
+  "author": "C4 Generator",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.28.0",
+    "inquirer": "^8.2.6",
+    "commander": "^12.0.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
