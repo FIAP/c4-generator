@@ -272,5 +272,3 @@ MIT License - veja [LICENSE](LICENSE) para detalhes.
 ---
 
 **⭐ Se este projeto te ajudou, deixe uma estrela no GitHub!**
-
-*Gerado com ❤️ e IA* 
